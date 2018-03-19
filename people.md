@@ -114,7 +114,7 @@ permalink: /people/
       </div> 
         <div class="row">
          <div class="col-md-3">
-            <img src="/assets/images/people/blank_man.png" class="img-circle" alt="">
+            <img src="{{ "/assets/images/people/blank_man.png" | prepend: site.baseurl }}" class="img-circle" alt="">
             <h4>Professor David L Weaver</h4>
             <p>Vistor from ---</p>   
           </div> 
