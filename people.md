@@ -19,7 +19,7 @@ permalink: /people/
           </div>
           <div class="col-md-3">
             <img src="{{ "/assets/images/people/suhail_islam.png" | prepend: site.baseurl }}" class="img-circle" alt="">
-            <h3>Dr Suhail Islam</h3>
+            <h4>Dr Suhail Islam</h4>
             <p>Systems Administrator<br/>
             <span class="glyphicon glyphicon-envelope"></span><a href="mailto:suhail.islam@imperial.ac.uk">&nbsp;suhail.islam@imperial.ac.uk</a><br/>
             <span class="glyphicon glyphicon-phone-alt"></span><a href="callto:+44(0)2075945713">&nbsp;+44 (0)20 7594 5713</a><br/>  
@@ -27,7 +27,7 @@ permalink: /people/
           </div>
           <div class="col-md-3">
             <img src="{{ "/assets/images/people/blank_woman.png" | prepend: site.baseurl }}" class="img-circle" alt="">
-            <h3>Dr Louise English</h3>
+            <h4>Dr Louise English</h4>
             <p>Administrator for group and Centre for Bioinformatics<br/>
             <span class="glyphicon glyphicon-envelope"></span><a href="mailto:bioinformatics@imperial.ac.uk">&nbsp;bioinformatics@imperial.ac.uk</a><br/>
             <span class="glyphicon glyphicon-phone-alt"></span><a href="callto:+44(0)2075945715">&nbsp;+44 (0)20 7594 5715</a><br/>  
@@ -35,7 +35,7 @@ permalink: /people/
           </div>
           <div class="col-md-3">
             <img src="{{ "/assets/images/people/lawrence_kelly.png" | prepend: site.baseurl }}" class="img-circle" alt="">
-            <h3>Dr Lawrence A. Kelly</h3>
+            <h4>Dr Lawrence A. Kelly</h4>
             <p>Research Fellow<br/>
             <span class="glyphicon glyphicon-envelope"></span><a href="mailto:l.a.kelley@imperial.ac.uk">&nbsp;l.a.kelley@imperial.ac.uk</a><br/>
             <span class="glyphicon glyphicon-phone-alt"></span><a href="callto:+44(0)2075945776">&nbsp;+44 (0)20 7594 5776</a></p>
@@ -45,44 +45,58 @@ permalink: /people/
       <div class="row">
           <div class="col-md-3">
             <img src="{{ "/assets/images/people/alessia_david.png" | prepend: site.baseurl }}" class="img-circle" alt="">
-            <h3>Dr Alessia David</h3>
-            <p>Postdoc</p>
+            <h4>Dr Alessia David</h4>
+            <p>Postdoc<br/>
+            <span class="glyphicon glyphicon-envelope"></span><a href="mailto:alessia.david09@imperial.ac.uk">&nbsp;alessia.david09@imperial.ac.uk</a><br/>
+            <span class="glyphicon glyphicon-phone-alt"></span><a href="callto:+44(0)2075945776">&nbsp;+44 (0)20 7594 5776</a></p>
           </div>         
           <div class="col-md-3">
             <img src="{{ "/assets/images/people/blank_man.png" | prepend: site.baseurl }}" class="img-circle" alt="">
-            <h3>Dr Stefans Mezulis</h3>
-            <p>Postdoc</p>
+            <h4>Dr Stefans Mezulis</h4>
+            <p>Postdoc<br/>
+            <span class="glyphicon glyphicon-envelope"></span><a href="mailto:stefans.mezulis08@imperial.ac.uk">&nbsp;stefans.mezulis08@imperial.ac.uk</a><br/>
+            <span class="glyphicon glyphicon-phone-alt"></span><a href="callto:+44(0)2075945762">&nbsp;+44 (0)20 7594 5762</a></p>
           </div>
           <div class="col-md-3">
             <img src="{{ "/assets/images/people/tarun_khanna.png" | prepend: site.baseurl }}" class="img-circle" alt="">
-            <h3>Tarun Khanna</h3>
-            <p>Postdoc</p>
+            <h4>Tarun Khanna</h4>
+            <p>Postdoc<br/>
+            <span class="glyphicon glyphicon-envelope"></span><a href="mailto:tarun.khanna@imperial.ac.uk">&nbsp;tarun.khanna@imperial.ac.uk</a><br/>
+            <span class="glyphicon glyphicon-phone-alt"></span><a href="callto:+44(0)2075945762">&nbsp;+44 (0)20 7594 5762</a></p>
           </div>
           <div class="col-md-3">
             <img src="{{ "/assets/images/people/charles_ofoegbu.png" | prepend: site.baseurl }}" class="img-circle" alt="">
-            <h3>Tochukwu (Charles) Ofoegbu</h3>
-            <p>Scientific Software Developer</p>
+            <h4>Tochukwu (Charles) Ofoegbu</h4>
+            <p>Scientific Software Developer<br/>
+            <span class="glyphicon glyphicon-envelope"></span><a href="mailto:t.ofoegbu@imperial.ac.uk">&nbsp;t.ofoegbu@imperial.ac.uk</a><br/>
+            <span class="glyphicon glyphicon-phone-alt"></span><a href="callto:+44(0)2075945762">&nbsp;+44 (0)20 7594 5762</a></p>
           </div>          
       </div>
             <div class="row">
           <div class="col-md-3">
             <img src="{{ "/assets/images/people/sirawit_ittisoponpisan.png" | prepend: site.baseurl }}" class="img-circle" alt="">
-            <h3>Sirawit Ittisoponpisan</h3>
-            <p>PhD Student</p>
+            <h4>Sirawit Ittisoponpisan</h4>
+            <p>PhD Student<br/>
+            <span class="glyphicon glyphicon-envelope"></span><a href="mailto:sirawit.ittisoponpisan13@imperial.ac.uk">&nbsp;sirawit.ittisoponpisan13@imperial.ac.uk</a><br/>
+            <span class="glyphicon glyphicon-phone-alt"></span><a href="callto:+44(0)2075945762">&nbsp;+44 (0)20 7594 5762</a></p>
           </div>
          <div class="col-md-3">
             <img src="{{ "/assets/images/people/blank_man.png" | prepend: site.baseurl }}" class="img-circle" alt="">
-            <h3>Matthew Scales</h3>
-            <p>PhD Student</p>
+            <h4>Matthew Scales</h4>
+            <p>PhD Student<br/>
+            <span class="glyphicon glyphicon-envelope"></span><a href="mailto:matthew.scales10@imperial.ac.uk">&nbsp;matthew.scales10@imperial.ac.uk</a><br/>
+            <span class="glyphicon glyphicon-phone-alt"></span><a href="callto:+44(0)2075945762">&nbsp;+44 (0)20 7594 5762</a></p>
           </div>
           <div class="col-md-3">
             <img src="{{ "/assets/images/people/blank_man.png" | prepend: site.baseurl }}" class="img-circle" alt="">
-            <h3>Luis Leal Ayala</h3>
-            <p>PhD Student</p>
+            <h4>Luis Leal Ayala</h4>
+            <p>PhD Student<br/>
+            <span class="glyphicon glyphicon-envelope"></span><a href="mailto:luis.leal-ayala15@imperial.ac.uk">&nbsp;luis.leal-ayala15@imperial.ac.uk</a><br/>
+            <span class="glyphicon glyphicon-phone-alt"></span><a href="callto:+44(0)2075945762">&nbsp;+44 (0)20 7594 5762</a></p>
           </div>
            <!--<div class="col-md-3">
             <img src="{{ "/assets/images/people/blank_woman.png" | prepend: site.baseurl }}" class="img-circle" alt="">
-            <h3>Person</h3>
+            <h4>Person</h4>
             <p>PhD Student</p>
           </div>  -->        
       </div>
@@ -94,29 +108,29 @@ permalink: /people/
          <div class="col-md-3">
             <img src="{{ "/assets/images/people/blank_man.png" | prepend: site.baseurl }}" class="img-circle" alt="">
             <h4>Patrick Alloy</h4>
-            <p>Vistor from ---</p>   
+            <!--<p>Vistor from ---</p>--> 
           </div>
           <div class="col-md-3">
             <img src="{{ "/assets/images/people/blank_man.png" | prepend: site.baseurl }}" class="img-circle" alt="">
-            <h3>Daniel Aguilar</h3>
-            <p>Vistor from ---</p> 
+            <h4>Daniel Aguilar</h4>
+            <!--<p>Vistor from ---</p>-->
           </div>
           <div class="col-md-3">
             <img src="{{ "/assets/images/people/blank_man.png" | prepend: site.baseurl }}" class="img-circle" alt="">
-            <h3>Professor Jinchu Luo</h3>
-            <p>Vistor from ---</p>
+            <h4>Professor Jinchu Luo</h4>
+            <!--<p>Vistor from ---</p>-->
           </div>
           <div class="col-md-3">
             <img src="{{ "/assets/images/people/blank_man.png" | prepend: site.baseurl }}" class="img-circle" alt="">
-            <h3>Baldo Oliva</h3>
-            <p>Vistor from ---</p>
+            <h4>Baldo Oliva</h4>
+            <!--<p>Vistor from ---</p>-->
           </div>   
       </div> 
         <div class="row">
          <div class="col-md-3">
             <img src="{{ "/assets/images/people/blank_man.png" | prepend: site.baseurl }}" class="img-circle" alt="">
             <h4>Professor David L Weaver</h4>
-            <p>Vistor from ---</p>   
+            <!--<p>Vistor from ---</p>-->
           </div> 
       </div>  
       </div>
