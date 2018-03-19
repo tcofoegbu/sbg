@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-permalink: /publications
+permalink: sbg/publications
 ---
  <div class="contact">
     <div class="container">
