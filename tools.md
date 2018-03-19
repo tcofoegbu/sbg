@@ -28,7 +28,7 @@ permalink: /tools/
           <div class="portfolio-items">
             <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
               <div class="recent-work-wrap">
-                <img class="img-responsive" src="/assets/images/sbg-tools/recent/item1.png" alt="">
+                <img class="img-responsive" src="{{ "/assets/images/sbg-tools/recent/3d_garden.png" | prepend: site.baseurl }}" alt="">
                 <div class="overlay">
                   <div class="recent-work-inner">
                     <h3><a href="http://www.sbg.bio.ic.ac.uk/servers/3dgarden" target="_blank">3D-GARDEN</a></h3>
@@ -41,7 +41,7 @@ permalink: /tools/
             <!--/.portfolio-item-->
             <div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3">
               <div class="recent-work-wrap">
-                <img class="img-responsive" src="/assets/images/sbg-tools/recent/item2.png" alt="">
+                <img class="img-responsive" src="{{ "/assets/images/sbg-tools/recent/3d_ligand_site.png" | prepend: site.baseurl }}" alt="">
                 <div class="overlay">
                   <div class="recent-work-inner">
                     <h3><a href="http://www.sbg.bio.ic.ac.uk/servers/3dligandsite" target="_blank">3DLigandSite</a></h3>
@@ -54,7 +54,7 @@ permalink: /tools/
             <!--/.portfolio-item-->
             <div class="portfolio-item bootstrap wordpress col-xs-12 col-sm-4 col-md-3">
               <div class="recent-work-wrap">
-                <img class="img-responsive" src="/assets/images/sbg-tools/recent/item3.png" alt="">
+                <img class="img-responsive" src="{{ "/assets/images/sbg-tools/recent/comb_func.png" | prepend: site.baseurl }}" alt="">
                 <div class="overlay">
                   <div class="recent-work-inner">
                     <h3><a href="http://www.sbg.bio.ic.ac.uk/~mwass/combfunc/" target="_blank">CombFunc</a></h3>
@@ -67,7 +67,7 @@ permalink: /tools/
             <!--/.portfolio-item-->
             <div class="portfolio-item joomla wordpress apps col-xs-12 col-sm-4 col-md-3">
               <div class="recent-work-wrap">
-                <img class="img-responsive" src="/assets/images/sbg-tools/recent/item4.png" alt="">
+                <img class="img-responsive" src="{{ "/assets/images/sbg-tools/recent/mc_tip_log.png" | prepend: site.baseurl }}" alt="">
                 <div class="overlay">
                   <div class="recent-work-inner">
                     <h3><a href="http://www.doc.ic.ac.uk/~shm/ilp.html" target="_blank">MC-TopLog</a></h3>
@@ -80,7 +80,7 @@ permalink: /tools/
             <!--/.portfolio-item-->
             <div class="portfolio-item joomla html bootstrap col-xs-12 col-sm-4 col-md-3">
               <div class="recent-work-wrap">
-                <img class="img-responsive" src="/assets/images/sbg-tools/recent/item5.png" alt="">
+                <img class="img-responsive" src="{{ "/assets/images/sbg-tools/recent/phyre2.png" | prepend: site.baseurl }}" alt="">
                 <div class="overlay">
                   <div class="recent-work-inner">
                     <h3><a href="http://www.sbg.bio.ic.ac.uk/servers/phyre2" target="_blank">Phyre2</a></h3>
@@ -93,7 +93,7 @@ permalink: /tools/
             <!--/.portfolio-item-->
             <div class="portfolio-item wordpress html apps col-xs-12 col-sm-4 col-md-3">
               <div class="recent-work-wrap">
-                <img class="img-responsive" src="/assets/images/sbg-tools/recent/item6.png" alt="">
+                <img class="img-responsive" src="{{ "/assets/images/sbg-tools/recent/pinalog.png" | prepend: site.baseurl }}" alt="">
                 <div class="overlay">
                   <div class="recent-work-inner">
                     <h3><a href="http://www.sbg.bio.ic.ac.uk/~pinalog/" target="_blank">PINALOG</a></h3>
@@ -106,7 +106,7 @@ permalink: /tools/
             <!--/.portfolio-item-->
             <div class="portfolio-item wordpress html col-xs-12 col-sm-4 col-md-3">
               <div class="recent-work-wrap">
-                <img class="img-responsive" src="/assets/images/sbg-tools/recent/item7.png" alt="">
+                <img class="img-responsive" src="{{ "/assets/images/sbg-tools/recent/suspect.png" | prepend: site.baseurl }}" alt="">
                 <div class="overlay">
                   <div class="recent-work-inner">
                     <h3><a href="http://www.sbg.bio.ic.ac.uk/servers/suspect" target="_blank">SuSPect</a></h3>
@@ -119,7 +119,7 @@ permalink: /tools/
             <!--/.portfolio-item-->
             <div class="portfolio-item wordpress html bootstrap col-xs-12 col-sm-4 col-md-3">
               <div class="recent-work-wrap">
-                <img class="img-responsive" src="/assets/images/sbg-tools/recent/item8.png" alt="">
+                <img class="img-responsive" src="{{ "/assets/images/sbg-tools/recent/phyrerisk.png" | prepend: site.baseurl }}" alt="">
                 <div class="overlay">
                   <div class="recent-work-inner">
                     <h3><a href="http://phyrerisk.bc.ic.ac.uk/" target="_blank">PhyreRisk</a></h3>
