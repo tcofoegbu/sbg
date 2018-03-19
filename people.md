@@ -70,20 +70,20 @@ permalink: /people/
             <h3>Sirawit Ittisoponpisan</h3>
             <p>PhD Student</p>
           </div>
-          <!--<div class="col-md-3">
-            <img src="{{ "/assets/images/people/blank_woman.png" | prepend: site.baseurl }}" class="img-circle" alt="">
-            <h3>Person</h3>
-            <p>Position</p>
-          </div>
-          <div class="col-md-3">
-            <img src="/assets/images/people/blank_man.png" | prepend: site.baseurl }}" class="img-circle" alt="">
-            <h3>Person</h3>
-            <p>Position</p>
+         <div class="col-md-3">
+            <img src="{{ "/assets/images/people/blank_man.png" | prepend: site.baseurl }}" class="img-circle" alt="">
+            <h3>Matthew Scales</h3>
+            <p>PhD Student</p>
           </div>
           <div class="col-md-3">
             <img src="{{ "/assets/images/people/blank_man.png" | prepend: site.baseurl }}" class="img-circle" alt="">
+            <h3>Luis Leal Ayala</h3>
+            <p>PhD Student</p>
+          </div>
+           <!--<div class="col-md-3">
+            <img src="{{ "/assets/images/people/blank_woman.png" | prepend: site.baseurl }}" class="img-circle" alt="">
             <h3>Person</h3>
-            <p>Position</p>
+            <p>PhD Student</p>
           </div>  -->        
       </div>
       <hr/>    
