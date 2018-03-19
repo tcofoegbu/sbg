@@ -10,7 +10,7 @@ permalink: /people/
         </div>
         <div class="row">
          <div class="col-md-3">
-            <img src="assets/images/people/michael_sternberg.png" class="img-circle" alt="">
+            <img src="/assets/images/people/michael_sternberg.png" class="img-circle" alt="">
             <h4>Professor Michael (Mike) J.E. Sternberg</h4>
             <p>Head of Group and Director of Centre for Bioinformatics<br/>
             <span class="glyphicon glyphicon-envelope"></span><a href="mailto:m.sternberg@imperial.ac.uk">&nbsp;m.sternberg@imperial.ac.uk</a><br/>
@@ -18,7 +18,7 @@ permalink: /people/
             <span class="glyphicon glyphicon-print"></span>&nbsp;+44 (0)20 7594 5264</p>   
           </div>
           <div class="col-md-3">
-            <img src="assets/images/people/suhail_islam.png" class="img-circle" alt="">
+            <img src="/assets/images/people/suhail_islam.png" class="img-circle" alt="">
             <h3>Dr Suhail Islam</h3>
             <p>Systems Administrator<br/>
             <span class="glyphicon glyphicon-envelope"></span><a href="mailto:suhail.islam@imperial.ac.uk">&nbsp;suhail.islam@imperial.ac.uk</a><br/>
@@ -26,7 +26,7 @@ permalink: /people/
             <span class="glyphicon glyphicon-print"></span>&nbsp;+44 (0)20 7594 5789</p> 
           </div>
           <div class="col-md-3">
-            <img src="assets/images/people/blank_woman.png" class="img-circle" alt="">
+            <img src="/assets/images/people/blank_woman.png" class="img-circle" alt="">
             <h3>Dr Louise English</h3>
             <p>Administrator for group and Centre for Bioinformatics<br/>
             <span class="glyphicon glyphicon-envelope"></span><a href="mailto:bioinformatics@imperial.ac.uk">&nbsp;bioinformatics@imperial.ac.uk</a><br/>
@@ -34,7 +34,7 @@ permalink: /people/
             <span class="glyphicon glyphicon-print"></span>&nbsp;+44 (0)20 7594 5789</p>
           </div>
           <div class="col-md-3">
-            <img src="assets/images/people/lawrence_kelly.png" class="img-circle" alt="">
+            <img src="/assets/images/people/lawrence_kelly.png" class="img-circle" alt="">
             <h3>Dr Lawrence A. Kelly</h3>
             <p>Research Fellow<br/>
             <span class="glyphicon glyphicon-envelope"></span><a href="mailto:l.a.kelley@imperial.ac.uk">&nbsp;l.a.kelley@imperial.ac.uk</a><br/>
@@ -44,44 +44,44 @@ permalink: /people/
       <br/>
       <div class="row">
           <div class="col-md-3">
-            <img src="assets/images/people/alessia_david.png" class="img-circle" alt="">
+            <img src="/assets/images/people/alessia_david.png" class="img-circle" alt="">
             <h3>Dr Alessia David</h3>
             <p>Postdoc</p>
           </div>         
           <div class="col-md-3">
-            <img src="assets/images/people/blank_man.png" class="img-circle" alt="">
+            <img src="/assets/images/people/blank_man.png" class="img-circle" alt="">
             <h3>Dr Stefans Mezulis</h3>
             <p>Postdoc</p>
           </div>
           <div class="col-md-3">
-            <img src="assets/images/people/tarun_khanna.png" class="img-circle" alt="">
+            <img src="/assets/images/people/tarun_khanna.png" class="img-circle" alt="">
             <h3>Tarun Khanna</h3>
             <p>Postdoc</p>
           </div>
           <div class="col-md-3">
-            <img src="assets/images/people/charles_ofoegbu.png" class="img-circle" alt="">
+            <img src="/assets/images/people/charles_ofoegbu.png" class="img-circle" alt="">
             <h3>Tochukwu (Charles) Ofoegbu</h3>
             <p>Scientific Software Developer</p>
           </div>          
       </div>
             <div class="row">
           <div class="col-md-3">
-            <img src="assets/images/people/sirawit_ittisoponpisan.png" class="img-circle" alt="">
+            <img src="/assets/images/people/sirawit_ittisoponpisan.png" class="img-circle" alt="">
             <h3>Sirawit Ittisoponpisan</h3>
             <p>PhD Student</p>
           </div>
           <!--<div class="col-md-3">
-            <img src="assets/images/people/blank_woman.png" class="img-circle" alt="">
+            <img src="/assets/images/people/blank_woman.png" class="img-circle" alt="">
             <h3>Person</h3>
             <p>Position</p>
           </div>
           <div class="col-md-3">
-            <img src="assets/images/people/blank_man.png" class="img-circle" alt="">
+            <img src="/assets/images/people/blank_man.png" class="img-circle" alt="">
             <h3>Person</h3>
             <p>Position</p>
           </div>
           <div class="col-md-3">
-            <img src="assets/images/people/blank_man.png" class="img-circle" alt="">
+            <img src="/assets/images/people/blank_man.png" class="img-circle" alt="">
             <h3>Person</h3>
             <p>Position</p>
           </div>  -->        
@@ -92,29 +92,29 @@ permalink: /people/
         </div>
         <div class="row">
          <div class="col-md-3">
-            <img src="assets/images/people/blank_man.png" class="img-circle" alt="">
+            <img src="/assets/images/people/blank_man.png" class="img-circle" alt="">
             <h4>Patrick Alloy</h4>
             <p>Vistor from ---</p>   
           </div>
           <div class="col-md-3">
-            <img src="assets/images/people/blank_man.png" class="img-circle" alt="">
+            <img src="/assets/images/people/blank_man.png" class="img-circle" alt="">
             <h3>Daniel Aguilar</h3>
             <p>Vistor from ---</p> 
           </div>
           <div class="col-md-3">
-            <img src="assets/images/people/blank_man.png" class="img-circle" alt="">
+            <img src="/assets/images/people/blank_man.png" class="img-circle" alt="">
             <h3>Professor Jinchu Luo</h3>
             <p>Vistor from ---</p>
           </div>
           <div class="col-md-3">
-            <img src="assets/images/people/blank_man.png" class="img-circle" alt="">
+            <img src="/assets/images/people/blank_man.png" class="img-circle" alt="">
             <h3>Baldo Oliva</h3>
             <p>Vistor from ---</p>
           </div>   
       </div> 
         <div class="row">
          <div class="col-md-3">
-            <img src="assets/images/people/blank_man.png" class="img-circle" alt="">
+            <img src="/assets/images/people/blank_man.png" class="img-circle" alt="">
             <h4>Professor David L Weaver</h4>
             <p>Vistor from ---</p>   
           </div> 
