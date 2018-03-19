@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-permalink: sbg/research
+permalink: /research/
 ---
  <div class="contact">
     <div class="container">

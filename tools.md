@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tools
-permalink: sbg/tools
+permalink: /tools/
 ---
 
 <section id="portfolio">

@@ -5,24 +5,17 @@
   <!-- <title>Structural Bioinformatics Group - Imperial College London</title> -->
   {%- seo -%}
  
-<!--   <link rel="stylesheet"  href="{{ "assets/css/bootstrap.min.css" | relative_url }}" />
-  <link rel="stylesheet" href="{{ "assets/css/font-awesome.min.css" | relative_url }}" />
-  <link rel="stylesheet" href="{{ "assets/css/jquery.bxslider.css" | relative_url }}" />
-  <link rel="stylesheet" type="text/css" href="{{ "assets/css/isotope.css" | relative_url }}" media="screen" />
-  <link rel="stylesheet" href="{{ "assets/css/animate.css" | relative_url }}" />
-  <link rel="stylesheet" href="{{ "assets/js/fancybox/jquery.fancybox.css" | relative_url }}" type="text/css" media="screen" />
-  <link rel="stylesheet"  href="{{ "assets/css/prettyPhoto.css" | relative_url }}" />
-  <link rel="stylesheet"  href="{{ "assets/css/style.css" | relative_url }}"  /> -->
+  <link rel="stylesheet"  href="{{ "/assets/css/bootstrap.min.css" | prepend: site.baseurl }}" />
+  <link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" | prepend: site.baseurl }}" />
+  <link rel="stylesheet" href="{{ "/assets/css/jquery.bxslider.css" | prepend: site.baseurl }}" />
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/isotope.css" | prepend: site.baseurl }}" media="screen" />
+  <link rel="stylesheet" href="{{ "/assets/css/animate.css" | prepend: site.baseurl }}" />
+  <link rel="stylesheet" href="{{ "/assets/js/fancybox/jquery.fancybox.css" | prepend: site.baseurl }}" type="text/css" media="screen" />
+  <link rel="stylesheet"  href="{{ "/assets/css/prettyPhoto.css" | prepend: site.baseurl }}" />
+  <link rel="stylesheet"  href="{{ "/assets/css/style.css" | prepend: site.baseurl }}"  /> 
   
-  <link rel="stylesheet"  href="assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="assets/css/jquery.bxslider.css" />
-  <link rel="stylesheet" type="text/css" href="assets/css/isotope.css" media="screen" />
-  <link rel="stylesheet" href="assets/css/animate.css" />
-  <link rel="stylesheet" href="assets/js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-  <link rel="stylesheet"  href="assets/css/prettyPhoto.css" />
-  <link rel="stylesheet"  href="assets/css/style.css"  /><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Structure Bioinformatics Group" /></head>
   
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}

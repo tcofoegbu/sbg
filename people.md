@@ -1,7 +1,7 @@
 ---
 layout: page
 title: People
-permalink: sbg/people
+permalink: /people/
 ---
 <div class="container">
       <div class="text-center">
