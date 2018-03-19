@@ -1,0 +1,120 @@
+<footer>
+	<div class="footer">
+		<div class="container">
+			<div class="col-md-4 wow fadeInUp" data-wow-offset="0"
+				data-wow-delay="0.2s">
+				<h2>SBG</h2>
+				<p>The Structural Bioinformatics Group at Imperial College
+					London is led by Professor Michael J.E. Sternberg (also Director of
+					the Centre for Bioinformatics).</p>
+
+				<hr />
+				<ul>
+					<li><a href="http://www.bioinformatics.ic.ac.uk/bio_mscphd.html">M.Sc and PhD opportunities</a></li>
+					<li><a href="http://www.bioinformatics.ic.ac.uk/bio_jobs.html">Job opportunities</a></li>
+				</ul>
+				<hr/>
+				<a href="http://www.bioinformatics.ic.ac.uk/bio_seminars.html">Seminars</a>
+				<hr />
+				<ul class="social-network">
+					<li><a href="#" data-placement="top" title="Facebook"><i
+							class="fa fa-facebook fa-1x"></i></a></li>
+					<li><a href="#" data-placement="top" title="Twitter"><i
+							class="fa fa-twitter fa-1x"></i></a></li>
+					<li><a href="#" data-placement="top" title="Linkedin"><i
+							class="fa fa-linkedin fa-1x"></i></a></li>
+					<li><a href="#" data-placement="top" title="Pinterest"><i
+							class="fa fa-pinterest fa-1x"></i></a></li>
+					<li><a href="#" data-placement="top" title="Google plus"><i
+							class="fa fa-google-plus fa-1x"></i></a></li>
+				</ul>
+			</div>
+
+			<div class="col-md-4 wow fadeInUp" data-wow-offset="0"
+				data-wow-delay="0.4s">
+				<h3>SERVERS, SOFTWARE & DATABASES</h3>
+				<ul>
+					<li><a href="http://www.sbg.bio.ic.ac.uk/servers/3dgarden" target="_blank">3D-GARDEN</a></li>
+					<li><a href="http://www.sbg.bio.ic.ac.uk/servers/3dligandsite" target="_blank">3DLigandSite</a></li>
+					<li><a href="http://www.sbg.bio.ic.ac.uk/servers/3dpssm" target="_blank">3D-PSSM
+							(Academic use only)</a></li>
+					<li><a href="http://www.sbg.bio.ic.ac.uk/~mwass/combfunc/" target="_blank">CombFunc</a></li>
+					<li><a href="http://www.doc.ic.ac.uk/~shm/ilp.html" target="_blank">MC-TopLog(Multi-Clause
+							TopLog)</a></li>
+					<li><a href="http://www.sbg.bio.ic.ac.uk/servers/phyre2" target="_blank">Phyre2
+							(Academic use only)</a></li>
+					<li><a href="http://phyrerisk.bc.ic.ac.uk" target="_blank">PhyreRisk</a></li>
+					<li><a href="http://www.sbg.bio.ic.ac.uk/~pinalog/" target="_blank">PINALOG</a></li>
+					<li><a href="http://www.sbg.bio.ic.ac.uk/servers/suspect" target="_blank">SuSPect</a></li>
+					<li><a href="http://www.sbg.bio.ic.ac.uk/~wibl/" target="_blank">WIBL</a></li>
+					<li><a href="http://www.sbg.bio.ic.ac.uk/~winarns/" target="_blank">WINARNS</a></li>
+				</ul>
+			</div>
+
+			<div class="col-md-4 wow fadeInUp" data-wow-offset="0"
+				data-wow-delay="0.6s">
+				<h3>CONTACT INFO</h3>
+				<ul>
+					<li><i class="fa fa-home fa-2x"></i> <a
+						href="https://www.google.co.uk/maps/place/51%C2%B029'52.4%22N+0%C2%B010'40.8%22W/@51.4978972,-0.1785396,19z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d51.4978964!4d-0.1779924" target="_blank" >
+						Centre for Bioinformatics 
+						<br>Biochemistry Building 
+						<br>Division of Molecular Biosciences 
+						<br>Faculty of Natural Sciences 
+						<br>South Kensington Campus 
+						<br>Imperial College 
+						<br>London SW7	2AZ</a>
+						</li>
+					<hr>
+					<li><i class="fa fa-phone fa-2x"></i> &nbsp;Tel: +44 (0) 20
+						7594 5715 <br>&emsp;&emsp;Fax: +44 (0) 20 7594 5789</li>
+					<hr>
+					<li><i class="fa fa-envelope fa-2x"></i> <a
+						href="mailto:bioinformatics@imperial.ac.uk">bioinformatics@imperial.ac.uk</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">&copy;&nbsp;{%- if site.copyright -%} {{
+					site.copyright | escape }} {%- else -%} 2017 Structure
+					Bioinformatics Group {%- endif -%}</div>
+				<div class="col-md-8">
+					<ul class="pull-right">
+					
+					  	{%- for path in page_paths -%}
+		            {%- assign my_page = site.pages | where: "path", path | first -%}
+		            {%- if my_page.title -%}
+		             <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+		            {%- endif -%}
+		          {% endfor -%}
+
+					</ul>
+				</div>
+			</div>
+			<div class="pull-right">
+				<a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="{{ "/assets/js/jquery-2.1.1.min.js" | relative_url }}"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="{{ "/assets/js/bootstrap.min.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/wow.min.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/fancybox/jquery.fancybox.pack.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/jquery.easing.1.3.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/jquery.bxslider.min.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/jquery.prettyPhoto.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/jquery.isotope.min.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/functions.js" | relative_url }}"></script>
+<script>
+    wow = new WOW({}).init();
+  </script>
