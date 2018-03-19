@@ -1,0 +1,186 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+  
+  <div class="slider">
+    <div class="img-responsive">
+      <ul class="bxslider">
+        <li><img src="assets/images/slider/1.jpg" alt="" /></li>
+        <li><img src="assets/images/slider/2.jpg" alt="" /></li>
+       <!--  <li><img src="assets/images/slider/3.jpg" alt="" /></li> -->
+      </ul>
+    </div>
+  </div>
+
+
+	<div class="publication">
+		<div class="container">
+			<div class="text-center">
+				<div class="wow bounceInDown" id="about" data-wow-offset="0"
+					data-wow-delay="0.3s">
+					<h2>About</h2>
+				</div>
+			</div>
+				<div class="wow bounceInDown" data-wow-offset="0"
+					data-wow-delay="0.6s">
+					
+					<p>Welcome to the Structural Bioinformatics Group at Imperial College London. The group is led by Professor Michael J.E. Sternberg. The current objectives of the Structural Bioinformatics Group are:</p>
+					<ul>
+						<li>The development of computer algorithms:
+							<ul>
+								<li>to predict protein structure from sequence</li>
+								<li>to suggest protein function from sequence or
+									structure</li>
+								<li>to predict the structure of a protein complex
+									starting from the unbound components</li>
+							</ul>
+						</li>
+						<li>The analysis of protein structure and function with the
+							aim of deriving evolutionary insights</li>
+						<li>The modelling and comparison of biology networks to
+							provide insights into Systems Biology</li>
+						<li>The modelling of the activity and toxicity of small
+							molecules as an aid to the design of novel drugs.
+					</ul>
+					<p>
+						For full details of research please see the Research page. Much of our research is disseminated in the form of publicly available software, databases and web based servers which can be found on the Tools page.
+					</p>
+				</div>
+				
+				
+<h3>Related links (at Imperial College London)</h3>
+<ul><li>
+    <a href="http://www.bioinformatics.ic.ac.uk" target="_blank">Centre for Bioinformatics (Director: Professor Michael Sternberg)</a></li><li>
+    <a href="http://www.doc.ic.ac.uk/~shm/" target="_blank">Computational Bioinformatics Laboratory (Professor Stephen H. Muggleton)</a></li><li>
+    <a href="http://www.imperial.ac.uk/theoreticalsystemsbiology" target="_blank">Theoretical Systems Biology Group (Professor Michael Stumpf)</a></li><li>
+    <a href="http://www.imperial.ac.uk/cisbic" target="_blank">Centre for Integrative Systems Biology</a></li><li>
+    <a href="http://www.imperial.ac.uk/systemsbiology/groups/syntheticbiology" target="_blank">Institute of Systems and Synthetic Biology</a></li>
+</ul>
+
+
+
+
+
+		</div>
+	</div>
+
+	<div class="container">
+    <div class="col-lg-6 wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.5s">
+      <img src="assets/images/new_site.png" class="img-responsive">
+    </div>
+    <div class="col-lg-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.5s">
+     <!--  <img src="assets/images/6.jpg" class="img-responsive"> -->
+  
+	  {{ content }}
+	  {%- if site.posts.size > 0 -%}
+	    <h2 class="post-list-heading">{{ page.list_title | default: "Blog Posts" }}</h2>
+	    <ul class="post-list">
+	      {%- for post in site.posts -%}
+	      <li>
+	        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+	        <h3>
+	          <a class="post-link" href="{{ post.url | relative_url }}">
+	            {{ post.title | escape }}
+	          </a>
+	        </h3>
+	        <span class="post-meta">{{ post.date | date: date_format }}</span>
+	       
+	        {%- if site.show_excerpts -%}
+	          {{ post.excerpt }}
+	        {%- endif -%}
+	      </li>
+	      {%- endfor -%}
+	    </ul>
+	
+	    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+	  {%- endif -%}
+	    </div>
+  </div>
+  
+  
+  <div class="main-feature"> 
+  
+      <div class="text-center">
+      <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.3s">
+        <h2>Funding and Support </h2>
+      </div>
+      <div class="wow bounceInUp" data-wow-offset="0" data-wow-delay="0.6s">
+      </div>
+    </div>
+    
+    
+    
+  <div class="container">
+      <div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+        <div class="media">
+          <div class="media-body">
+           <a href="http://www.bbsrc.ac.uk/" target="_blank"> <img title="BBSRC" src="/assets/images/funding/bbsrc.png" alt="BBSRC" /></a>
+            <p>Some information about the BBSRC funding goes here...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+        <div class="media">
+          <div class="media-body">
+    		 <img title="DTI" src="/assets/images/funding/dti.png" alt="DTI" />
+            <p>Some information about the DTI funding goes here...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
+        <div class="media">
+          <div class="media-body">
+            <a href="http://www.epsrc.ac.uk/" target="_blank"><img title="EPSRC" src="/assets/images/funding/epsrc.png" alt="EPSRC" /></a>
+            <p>Some information about the EPSRC funding goes here....</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+        <div class="media">
+          <div class="media-body">
+            <a href="http://ec.europa.eu/grants/index_en.htm" target="_blank"><img title="European Commision" src="/assets/images/funding/euc.png" alt="European Commision" /></a>
+            <p>Some information about the European Commision funding goes here...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+        <div class="media">
+          <div class="media-body">
+            <a href="http://www.mrc.ac.uk/" target="_blank"><img title="MRC" src="/assets/images/funding/mrc.png" alt="MRC" /></a>
+            <p>Some information about the Medical Research Council funding goes here...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
+        <div class="media">
+          <div class="media-body">
+            <a href="http://www.syngenta.co.uk/" target="_blank"><img title="Syngenta" src="/assets/images/funding/syngenta.png" alt="Syngenta" /></a>
+            <p>Some information about the Syngenta funding goes here...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+     <div class="container">
+      <div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+        <div class="media">
+          <div class="media-body">        
+            <a href="http://www.wellcome.ac.uk/" target="_blank"><img title="wellcome trust" src="/assets/images/funding/wellcome.png" alt="wellcome trust" /></a>
+            <p>Some information about the Wellcome Trust funding goes here....</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+  
+
+
+</div>
