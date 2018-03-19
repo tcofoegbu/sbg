@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact Us
-permalink: /contact-us/
+permalink: /contact-us
 ---
  <div class="contact">
     <div class="container">
