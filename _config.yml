@@ -17,11 +17,11 @@ copyright: 2018 Structure Bioinformatics Group
 title: Structure Bioinformatics Group
 email:  bioinformatics@imperial.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
-The Structural Bioinformatics Group at Imperial College London is led by Professor Michael J.E. Sternberg. 
-The groups research focuses on the development of computer algorithms for protein structure modelling, 
-protein complex prediction, analysis of protein structure and function with the aim of deriving evolutionary 
-insights, modelling and comparison of biology networks to provide insights into Systems Biology, modelling of 
-the activity and toxicity of small molecules as an aid to the design of novel drugs
+  The Structural Bioinformatics Group at Imperial College London is led by Professor Michael J.E. Sternberg. 
+  The groups research focuses on the development of computer algorithms for protein structure modelling, 
+  protein complex prediction, analysis of protein structure and function with the aim of deriving evolutionary 
+  insights, modelling and comparison of biology networks to provide insights into Systems Biology, modelling of 
+  the activity and toxicity of small molecules as an aid to the design of novel drugs.
 baseurl: "/sbg" # the subpath of your site, e.g. /blog
 url: "https://tcofoegbu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
