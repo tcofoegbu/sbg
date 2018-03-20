@@ -21,10 +21,13 @@
           <div class="navbar-collapse collapse">
             <div class="menu">
               <ul class="nav nav-tabs" role="tablist">
+             	 <li role="presentation"><a href="{{ "/index" | relative_url }}">
+             	 	<img src="{{ "/assets/images/home-icon.png" | prepend: site.baseurl }}" alt="Home"></a>
+             	 </li>
               	{%- for path in page_paths -%}
 		            {%- assign my_page = site.pages | where: "path", path | first -%}
 		            {%- if my_page.title -%}
-		             <li role="presentation"><a href="{{ my_page.url | relative_url }}"
+		         <li role="presentation"><a href="{{ my_page.url | relative_url }}"
 		            	class="{% if page.url == my_page.url %}active{% endif %}">
 		            	{{ my_page.title | escape }}</a></li>
 		            {%- endif -%}
