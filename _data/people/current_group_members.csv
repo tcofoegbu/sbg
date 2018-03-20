@@ -1,12 +1,12 @@
-name,post,email,phone,fax,image_path
-Professor Michael (Mike) J.E. Sternberg,Head of Group and Director of Centre for Bioinformatics , m.sternberg@imperial.ac.uk,+44 (0)20 7594 5212,+44 (0)20 7594 5264,/assets/images/people/michael_sternberg.png
-Dr Suhail Islam,Systems Administrator,suhail.islam@imperial.ac.uk,+44 (0)20 7594 5713 ,+44 (0)20 7594 5789,/assets/images/people/suhail_islam.png
-Dr Louise English,Administrator for group and Centre for Bioinformatics,bioinformatics@imperial.ac.uk,+44 (0)20 7594 5715,+44 (0)20 7594 5789,/assets/images/people/blank_woman.png
-Dr Lawrence A. Kelly,Research Fellow,l.a.kelley@imperial.ac.uk,+44 (0)20 7594 5776,,/assets/images/people/lawrence_kelly.png
-Dr Alessia David,Postdoc,alessia.david09@imperial.ac.uk,+44 (0)20 7594 5776,,/assets/images/people/alessia_david.png
-Dr Stefans Mezulis,Postdoc,stefans.mezulis08@imperial.ac.uk,+44 (0)20 7594 5762,,/assets/images/people/blank_man.png
-Tarun Khanna,Postdoc,tarun.khanna@imperial.ac.uk,+44 (0)20 7594 5762,,/assets/images/people/tarun_khanna.png
-Tochukwu (Charles) Ofoegbu,Scientific Software Developer,t.ofoegbu@imperial.ac.uk,+44 (0)20 7594 5762,,/assets/images/people/charles_ofoegbu.png
-Sirawit Ittisoponpisan,PhD Student,sirawit.ittisoponpisan13@imperial.ac.uk,+44 (0)20 7594 5762,,/assets/images/people/sirawit_ittisoponpisan.png
-Matthew Scales,PhD Student,matthew.scales10@imperial.ac.uk,+44 (0)20 7594 5762,,/assets/images/people/blank_man.png
-Luis Leal Ayala,PhD Student,luis.leal-ayala15@imperial.ac.uk,+44 (0)20 7594 5762,,/assets/images/people/blank_man.png
+name,post,email,phone,fax,image_path,url
+Professor Michael (Mike) J.E. Sternberg,Head of Group and Director of Centre for Bioinformatics , m.sternberg@imperial.ac.uk,+44 (0)20 7594 5212,+44 (0)20 7594 5264,/assets/images/people/michael_sternberg.png,http://www.imperial.ac.uk/people/m.sternberg
+Dr Suhail Islam,Systems Administrator,suhail.islam@imperial.ac.uk,+44 (0)20 7594 5713 ,+44 (0)20 7594 5789,/assets/images/people/suhail_islam.png,http://www.sbg.bio.ic.ac.uk/~islam/
+Dr Louise English,Administrator for group and Centre for Bioinformatics,bioinformatics@imperial.ac.uk,+44 (0)20 7594 5715,+44 (0)20 7594 5789,/assets/images/people/blank_woman.png,
+Dr Lawrence A. Kelly,Research Fellow,l.a.kelley@imperial.ac.uk,+44 (0)20 7594 5776,,/assets/images/people/lawrence_kelly.png,http://www.sbg.bio.ic.ac.uk/people/kelley/kelley.html
+Dr Alessia David,Postdoc,alessia.david09@imperial.ac.uk,+44 (0)20 7594 5776,,/assets/images/people/alessia_david.png,http://www.sbg.bio.ic.ac.uk/~alessia/
+Dr Stefans Mezulis,Postdoc,stefans.mezulis08@imperial.ac.uk,+44 (0)20 7594 5762,,,http://www.sbg.bio.ic.ac.uk/~sm2708/
+Tarun Khanna,Postdoc,tarun.khanna@imperial.ac.uk,+44 (0)20 7594 5762,,/assets/images/people/tarun_khanna.png,
+Tochukwu (Charles) Ofoegbu,Scientific Software Developer,t.ofoegbu@imperial.ac.uk,+44 (0)20 7594 5762,,/assets/images/people/charles_ofoegbu.png,
+Sirawit Ittisoponpisan,PhD Student,sirawit.ittisoponpisan13@imperial.ac.uk,+44 (0)20 7594 5762,,/assets/images/people/sirawit_ittisoponpisan.png,
+Matthew Scales,PhD Student,matthew.scales10@imperial.ac.uk,+44 (0)20 7594 5762,,,
+Luis Leal Ayala,PhD Student,luis.leal-ayala15@imperial.ac.uk,+44 (0)20 7594 5762,,,
