@@ -22,7 +22,7 @@ of your email. This not only helps us but avoids your emails being filtered as s
   <div class="container">
     <div class="col-md-7">
       <div class="map">
-        <div id="google-map" data-latitude="51.497887" data-longitude="-0.1955096">Google map placeholder</div>
+        <div id="google-map" data-latitude="51.497688" data-longitude="-0.1775754">Google map placeholder</div>
       </div>
     </div>
     <div class="contact-info">
